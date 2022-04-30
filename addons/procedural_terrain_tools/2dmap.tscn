@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://c84ser5pucnw0"]
+
+[ext_resource type="Script" path="res://mapdisplay.gd" id="1_fw6nl"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_nhe0a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v5xv3"]
+shading_mode = 0
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource( "PlaneMesh_nhe0a" )
+surface_material_override/0 = SubResource( "StandardMaterial3D_v5xv3" )
+script = ExtResource( "1_fw6nl" )

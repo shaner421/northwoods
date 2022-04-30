@@ -8,8 +8,22 @@
 
 config_version=5
 
+_global_script_classes=[{
+"base": "Node",
+"class": &"simplexnoise",
+"language": &"GDScript",
+"path": "res://addons/procedural_terrain_tools/noises/simplexnoise.gd"
+}]
+_global_script_class_icons={
+"simplexnoise": ""
+}
+
 [application]
 
 config/name="Northwoods"
 config/icon="res://icon.png"
 config/features=PackedStringArray("4.0", "Vulkan Clustered")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/procedural_terrain_tools/plugin.cfg")
