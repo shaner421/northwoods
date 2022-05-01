@@ -1,10 +1,13 @@
 extends Node
+class_name mapgenerator
 
-var map_width:int = 10
-var map_height:int = 10
-var noise_scale:float = 0.0
 
-func generate_map():
-	var noise_map:Array = simplexnoise.generate_noise_map(map_width,map_height,noise_scale)
+
+static func generate_map():
+	var map_width:int = 100
+	var map_height:int = 100
+	var noise_scale:float = 0.2
+	var noise_map = simplexnoise.generate_noise_map(map_width,map_height,noise_scale)
+	return noise_map
 	
 	

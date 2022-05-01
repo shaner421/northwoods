@@ -10,11 +10,17 @@ config_version=5
 
 _global_script_classes=[{
 "base": "Node",
+"class": &"mapgenerator",
+"language": &"GDScript",
+"path": "res://addons/procedural_terrain_tools/generators/mapgenerator.gd"
+}, {
+"base": "Node",
 "class": &"simplexnoise",
 "language": &"GDScript",
 "path": "res://addons/procedural_terrain_tools/noises/simplexnoise.gd"
 }]
 _global_script_class_icons={
+"mapgenerator": "",
 "simplexnoise": ""
 }
 
