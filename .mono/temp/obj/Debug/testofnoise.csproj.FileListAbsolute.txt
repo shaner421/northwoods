@@ -1,0 +1,16 @@
+C:\Users\shane\Documents\testofnoise\.mono\temp\obj\Debug\testofnoise.csproj.AssemblyReference.cache
+C:\Users\shane\Documents\testofnoise\.mono\temp\obj\Debug\testofnoise.AssemblyInfoInputs.cache
+C:\Users\shane\Documents\testofnoise\.mono\temp\obj\Debug\testofnoise.AssemblyInfo.cs
+C:\Users\shane\Documents\testofnoise\.mono\temp\obj\Debug\testofnoise.csproj.CoreCompileInputs.cache
+C:\Users\shane\Documents\testofnoise\.mono\temp\bin\Debug\testofnoise.dll
+C:\Users\shane\Documents\testofnoise\.mono\temp\bin\Debug\testofnoise.pdb
+C:\Users\shane\Documents\testofnoise\.mono\temp\obj\Debug\testofnoise.dll
+C:\Users\shane\Documents\testofnoise\.mono\temp\obj\Debug\testofnoise.pdb
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\obj\Debug\testofnoise.csproj.AssemblyReference.cache
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\obj\Debug\testofnoise.AssemblyInfoInputs.cache
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\obj\Debug\testofnoise.AssemblyInfo.cs
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\obj\Debug\testofnoise.csproj.CoreCompileInputs.cache
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\obj\Debug\testofnoise.dll
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\obj\Debug\testofnoise.pdb
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\bin\Debug\testofnoise.dll
+C:\Users\shane\Documents\GitHub\northwoods\.mono\temp\bin\Debug\testofnoise.pdb

@@ -6,30 +6,17 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=5
-
-_global_script_classes=[{
-"base": "Node",
-"class": &"mapgenerator",
-"language": &"GDScript",
-"path": "res://addons/procedural_terrain_tools/generators/mapgenerator.gd"
-}, {
-"base": "Node",
-"class": &"simplexnoise",
-"language": &"GDScript",
-"path": "res://addons/procedural_terrain_tools/noises/simplexnoise.gd"
-}]
-_global_script_class_icons={
-"mapgenerator": "",
-"simplexnoise": ""
-}
+config_version=4
 
 [application]
 
-config/name="Northwoods"
+config/name="testofnoise"
 config/icon="res://icon.png"
-config/features=PackedStringArray("4.0", "Vulkan Clustered")
 
-[editor_plugins]
+[physics]
 
-enabled=PackedStringArray("res://addons/procedural_terrain_tools/plugin.cfg")
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
