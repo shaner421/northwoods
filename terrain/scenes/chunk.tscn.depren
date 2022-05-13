@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://terrain/scripts/Chunk.gd" id="1_3snun"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_43obf"]
+frequency = 0.006
+
+[node name="Chunk" type="Node3D"]
+script = ExtResource( "1_3snun" )
+noise = SubResource( "FastNoiseLite_43obf" )
+chunk_size = 64

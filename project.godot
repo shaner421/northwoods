@@ -6,17 +6,32 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
+config_version=5
+
+_global_script_classes=[{
+"base": "Node3D",
+"class": &"Chunk",
+"language": &"GDScript",
+"path": "res://terrain/scripts/Chunk.gd"
+}, {
+"base": "Node3D",
+"class": &"Map",
+"language": &"GDScript",
+"path": "res://terrain/scripts/map.gd"
+}, {
+"base": "Node",
+"class": &"Noise_Settings",
+"language": &"GDScript",
+"path": "res://terrain/scripts/noise_settings.gd"
+}]
+_global_script_class_icons={
+"Chunk": "",
+"Map": "",
+"Noise_Settings": ""
+}
 
 [application]
 
-config/name="testofnoise"
+config/name="northwoods"
 config/icon="res://icon.png"
-
-[physics]
-
-common/enable_pause_aware_picking=true
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
+config/features=PackedStringArray("4.0", "Vulkan Clustered")
