@@ -15,6 +15,11 @@ _global_script_classes=[{
 "path": "res://terrain/scripts/Chunk.gd"
 }, {
 "base": "Node3D",
+"class": &"Chunkold",
+"language": &"GDScript",
+"path": "res://terrain/scripts/chunk.old.gd"
+}, {
+"base": "MeshInstance3D",
 "class": &"Map",
 "language": &"GDScript",
 "path": "res://terrain/scripts/map.gd"
@@ -26,6 +31,7 @@ _global_script_classes=[{
 }]
 _global_script_class_icons={
 "Chunk": "",
+"Chunkold": "",
 "Map": "",
 "Noise_Settings": ""
 }
